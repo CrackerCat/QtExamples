@@ -48,7 +48,9 @@
     - [Qt Creator 安装SDK，在MSVC编译模式下使用CDB调试器](https://blog.csdn.net/qq_33154343/article/details/98779698) 
     - [`windows`环境下安装`Qt Creator` + `Visual Studio 2015`作为`c++`的`IDE`开发工具，学习和使用**qt**  (备选)](https://blog.csdn.net/qq_33154343/article/details/103755569)
     - [`windows`环境下安装`Qt Creator 5.9` + `Visual Studio 2017专业版  `  参考此文 （备选）](https://blog.csdn.net/qq_33154343/article/details/78587699)  
-
+    - [Win10上CLion、CMake、MSVC/MinGW配置Qt开发](https://blog.csdn.net/qq_33154343/article/details/120070828) 
+    - [VS2017调试Qt源码，安装PDB](https://blog.csdn.net/qq_33154343/article/details/120339797)
+    
     <br>
     
 - **MacOS 系统：**
@@ -61,8 +63,10 @@
     - [在win10里面的VMware安装UOS20，在uos20里面安装QtCreator，配置dtk开发环境](https://blog.csdn.net/qq_33154343/article/details/103733327)
     - [MacOS10.14安装虚拟机Parallels_Desktop，安装UOS20和 QtCreaor，搭建dtk开发环境](https://blog.csdn.net/qq_33154343/article/details/104180794)
     - [在macOS 10.14的虚拟机VMware Fusionlimian里面安装deepin15.11（Linux）](https://blog.csdn.net/qq_33154343/article/details/102789047)
+    - [Deepin / UOS 中配置 DTK 开发环境](https://blog.csdn.net/qq_33154343/article/details/112239518)
     - [重装uos/deepin v20后必安装软件(个人习惯)](https://xmuli.blog.csdn.net/article/details/106510975)
     - [ArchLinux + DDE 安装教程](https://xmuli.blog.csdn.net/article/details/107696563)
+    - [对 GNU/Linux 介绍、ArchLinux社区氛围、DDE移植Arch流程](https://blog.csdn.net/qq_33154343/article/details/108378441)
 
 <br>
 
@@ -111,7 +115,7 @@
 
 ## 第五部分：DTK 重绘控件原理解析（自定义样式 QStyle ）
 
-- **dtk 历史发展：**
+- **DTK 历史发展：**
     - [DTK的历史起源、发展，和简单入门](https://xmuli.blog.csdn.net/article/details/106189533) 『🥳🥳』
     - [deepin、dde的历史起源与发展(附deepin所有版本的dde截图)](https://xmuli.blog.csdn.net/article/details/106195055) 『🥳🥳』
     - [UOS/Deepin 中配置 DTK 开发环境](https://xmuli.blog.csdn.net/article/details/112239518) 『🥳🥳』
@@ -121,6 +125,7 @@
     - [DTK 基础教程：自定义控件规范](https://xmuli.blog.csdn.net/article/details/108536588) 『🥳🥳』
     - [QStyle设置界面的外观和QCommonStyle继承关系图讲解和使用](https://blog.csdn.net/qq_33154343/article/details/104367878) 『👩‍💻👩‍💻👩‍💻』
     - [qt之proxy()代理探究](https://blog.csdn.net/qq_33154343/article/details/101571843)
+    - [DTK常用和测试代码片](https://blog.csdn.net/qq_33154343/article/details/106187959)
 - **感性理解👀：**
     - [应用软件在「UOS20和 MaOS10.14下」显示应用不同的QStyle「即：所有控件的样式换肤」](https://blog.csdn.net/qq_33154343/article/details/104305154)
     - [应用软件在「windows10 和 deepin10.15下」显示应用不同的`QStyle`「即：所有控件的样式换肤」](https://blog.csdn.net/qq_33154343/article/details/100148552) 
@@ -135,8 +140,8 @@
 
 ## 第六部分：Qt / IDE 出现乱码原因和解决：
 
+- [愿编程不再乱码(含Qt)-根因深究](https://blog.csdn.net/qq_33154343/article/details/120661967) [★★★★★]
 - [乱码原因产生和解决方案](https://xmuli.blog.csdn.net/article/details/109567352) [★★]
-
 - [ 输出乱码原因：古文码、口字码、符号码、问号码、棍拷码](https://blog.csdn.net/qq_33154343/article/details/99617767) 
 - [qt5 中文乱码解决](https://blog.csdn.net/qq_33154343/article/details/95344312) 
 - [Qt字符串有中文，编译不通过解决方法：](https://blog.csdn.net/qq_33154343/article/details/79130275) 
@@ -146,8 +151,7 @@
 
 <br>
 
-- [Qt5与Qt4的信号接收差异](https://blog.csdn.net/qq_33154343/article/details/79130732) 
-- `qt`的信号和槽关系
+- [Qt4和Qt5的信号和槽的使用差异](https://xmuli.blog.csdn.net/article/details/118346008)
 - `qt`中 Lambda 表达式
 
 <br>
@@ -156,10 +160,10 @@
 
 - [QtCreator设置代码美化 astyle 之 Artistic](https://blog.csdn.net/qq_33154343/article/details/101397429)
 - [Qt Creator 关闭.cpp文件右侧的黄色警告](https://blog.csdn.net/qq_33154343/article/details/102943623)
-
 - [小技巧：Design设计师里，无法拖拽action到toolbar里](https://blog.csdn.net/qq_33154343/article/details/100168170) 
 - [小技巧：设置`QToolBox`的每一页page的使用单独的布局（`QTabWidget`同理）](https://blog.csdn.net/qq_33154343/article/details/100185025) 
 - [小技巧：QtCreator用快捷键秒实现，声明在基类中重写的派生类(纯)虚函数](https://blog.csdn.net/qq_33154343/article/details/104457739) 
+- [VS2019调试Qt5时QString显示为内存地址而非字符串](https://xmuli.blog.csdn.net/article/details/116244865) 
 
 <br>
 
@@ -170,8 +174,9 @@
 - [Qt 项目在 MacOS 平台上面发布成可执行程序](https://xmuli.blog.csdn.net/article/details/96448938#comments) 
 - [Qt 项目在 Linux 平台上面发布成可执行程序](https://blog.csdn.net/qq_33154343/article/details/96448621) 
 - [如何给上游 Qt 提交 Bug 反馈和贡献代码 PATCH？](https://xmuli.blog.csdn.net/article/details/107220867) 
-- [Qt 项目用 doxygen 生成 .qch，嵌入文档到 Assistants](https://xmuli.blog.csdn.net/article/details/114580630) 
+- [Qt 项目用 Doxygen 生成 .qch，嵌入文档到 Assistants](https://xmuli.blog.csdn.net/article/details/114580630) 
 - [修改 Doxygen 主题，生成 Qt 风格的文档](https://xmuli.blog.csdn.net/article/details/114591725) 
+- [QtCreator 中自定义项目例子置于“欢迎-实例”中](https://xmuli.blog.csdn.net/article/details/115049715)
 
 <br>
 
@@ -181,6 +186,7 @@
 - [Qt 项目(Cmake)设置国际化支持](https://xmuli.blog.csdn.net/article/details/114439385) 
 - [如何构建 QT5（5.15）](https://xmuli.blog.csdn.net/article/details/114259155) 
 - [在 Mac 编译成功运行 qt5.15 源码：debug 和 release 版本](https://xmuli.blog.csdn.net/article/details/114259186)
+- [Qt 信号和槽原理分析](https://xmuli.blog.csdn.net/article/details/115305903)
 
 <br>
 
@@ -199,7 +205,7 @@
 
 <br>
 
-### 其它
+### 其它(Qt/DTK)
 
 - [更换`Qt`应用程序的界面`UI`，实现换肤，改用自带其他默认`QStyle`风格样式](https://blog.csdn.net/qq_33154343/article/details/100148552) 
 - [`QStyle`自定义重绘滑动条`QSlider`控件](https://blog.csdn.net/qq_33154343/article/details/100545769) 
@@ -208,9 +214,9 @@
 - [`QStyle`之`PenStyle`的`CustomDashLine`使用](https://blog.csdn.net/qq_33154343/article/details/100659576) 
 - [`QStyle`自定义重绘滑动条`QSlide`r控件二](https://blog.csdn.net/qq_33154343/article/details/100942637) 
 - [QStyle自定义重绘`QScrollBar`](https://blog.csdn.net/qq_33154343/article/details/100943187) 
-- [Deepin 自定义修改窗口圆角大小](https://xmuli.blog.csdn.net/article/details/109232878)  [参与商业开源项目★★★]
-- [Deepin 开发任务栏网速插件 lfxSpeed](https://xmuli.blog.csdn.net/article/details/110672252) [★★]
-- [Deepin 愿望墙：社区插件等需求调研结果](https://xmuli.blog.csdn.net/article/details/112243878) [提供社区练手参考]
+- [Deepin 自定义修改窗口圆角大小](https://xmuli.blog.csdn.net/article/details/109232878)  [商业开源项目★★★]
+- [Deepin 开发任务栏网速插件 lfxSpeed](https://xmuli.blog.csdn.net/article/details/110672252) [★★★]
+- [Deepin 愿望墙：社区插件等需求调研结果](https://xmuli.blog.csdn.net/article/details/112243878) [社区练手参考]
 - [Deepin 任务栏网速插件推荐 lfxNet (重构 lfxSpeed)](https://xmuli.blog.csdn.net/article/details/113573870) [★★★★]
 
 <br>
@@ -252,7 +258,7 @@
 
 ## 作者：
 
-[偕藏 | xmuli ](https://ifmet.cn)
+[偕臧 | xmuli ](https://ifmet.cn)
 
 <br>
 
